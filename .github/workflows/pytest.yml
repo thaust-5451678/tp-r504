@@ -20,3 +20,5 @@ jobs:
         run: 'echo "Nom de branche: ${{ github.ref }}"'
       - name: Print OS
         run: 'echo "OS: ${{ runner.os }}"'
+      - name: Print python version
+        run: 'echo "Version de Python: $(python --version)"'
